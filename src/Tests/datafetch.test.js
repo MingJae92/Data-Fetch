@@ -1,12 +1,10 @@
 
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
-import DataFetch from '../components/DataFetch';
+import DataFetch from './components/DataFetch';
 import '@testing-library/jest-dom';
 
 // Your test cases go here
-
-
 
 const mock = new MockAdapter(axios);
 
